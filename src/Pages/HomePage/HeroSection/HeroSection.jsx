@@ -39,7 +39,7 @@ const HeroSection = () => {
             <Hero />
             <RapidCount />
             <AvailableCards />
-            <Car3 />
+            {/* <Car3 /> */}
             <ServicesCards />
             <Video />
             <Card3d />

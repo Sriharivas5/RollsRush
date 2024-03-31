@@ -41,17 +41,17 @@ const App = () => {
       {/* <HeroSection /> */}
       <BrowserRouter>
         <Routes>
-          <Route path='/' exact Component={HeroSection} />
-          <Route path='/car2' exact Component={car2} />
-          <Route path='/Bmwm4' exact Component={Bmwm4} />
-          <Route path='/Bmwf82' exact Component={Bmwf82} />
-          <Route path='/Mclaren' exact Component={Mclaren} />
-          <Route path='/Mercedes' exact Component={Mercedes} />
-          <Route path='/Hongqi' exact Component={Hongqi} />
-          <Route path='/Sports' exact Component={Sports} />
-          <Route path='/FreeConcept11' exact Component={FreeConcept11} />
-          <Route path='/FreeConcept3' exact Component={FreeConcept3} />
-          <Route path='/Bugatti' exact Component={Bugatti} />
+          <Route path='/RollsRush' exact Component={HeroSection} />
+          <Route path='/RollsRush/car2' exact Component={car2} />
+          <Route path='RollsRush//Bmwm4' exact Component={Bmwm4} />
+          <Route path='/RollsRush/Bmwf82' exact Component={Bmwf82} />
+          <Route path='/RollsRush/Mclaren' exact Component={Mclaren} />
+          <Route path='/RollsRush/Mercedes' exact Component={Mercedes} />
+          <Route path='/RollsRush/Hongqi' exact Component={Hongqi} />
+          <Route path='/RollsRush/Sports' exact Component={Sports} />
+          <Route path='RollsRush//FreeConcept11' exact Component={FreeConcept11} />
+          <Route path='/RollsRush/FreeConcept3' exact Component={FreeConcept3} />
+          <Route path='/RollsRush/Bugatti' exact Component={Bugatti} />
         </Routes>
       </BrowserRouter>
     </div>
