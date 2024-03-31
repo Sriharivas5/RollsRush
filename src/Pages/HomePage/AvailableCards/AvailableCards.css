@@ -1,0 +1,92 @@
+.availableCards {
+    max-width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 60px;
+    padding: 80px 0;
+    justify-content: center;
+    background-image: radial-gradient(rgb(75, 75, 75),black);
+    background-image: url('../assets/availableCardBackground3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.cardsText h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 800;
+
+}
+.cardsText h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.cardsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(4, 10, 16, 0.261);
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgba(245, 222, 179, 0.256);
+    transition: all ease 0.5s;
+
+}
+
+.cardIcon {
+    font-size: 60px;
+    transition: all ease 0.5s;
+}
+
+.card:hover .cardIcon {
+    color: wheat;
+    transform: rotateY(180deg);
+}
+
+.card:hover {
+    transform: scaleY(1.1);
+    border: 3px solid rgba(255, 229, 181, 0.256);
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cardText h3{
+    font-weight: 700;
+}
+
+.cardText p{
+    font-weight: 600;
+}
+
+.cards:hover > .card:not(:hover){
+    filter: blur(3px);
+}

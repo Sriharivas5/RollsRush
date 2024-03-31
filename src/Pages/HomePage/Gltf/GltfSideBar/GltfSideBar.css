@@ -1,0 +1,53 @@
+.gltfSideBarFullWidth {
+  width: 20vw;
+  height: 90vh;
+  overflow:scroll;
+  background-image: radial-gradient(rgb(61, 61, 61), black);
+  /* background-image: url('../../assets/backgroundImage.jpg'); */
+  /* background-image: url('https://cdn.pixabay.com/photo/2024/02/19/12/54/ai-generated-8583359_1280.jpg'); */
+  background-size: cover;
+  transition: all ease-in-out 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.gltfSideBarHalfWidth {
+  width: 4vw;
+  height: 90vh;
+  background-color: rgb(30, 30, 30);
+  transition: all ease-in-out 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  gap: 10px;
+
+}
+
+.sideActionButton {
+  border: none;
+  font-size: 30px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.sideBarImage {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(89, 89, 89, 0.335);
+  backdrop-filter: blur(3px);
+}
+
+.sideBarImage img {
+  width: 65%;
+}
+#sideImagePng{
+display: flex;
+justify-content: center;
+}

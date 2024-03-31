@@ -1,0 +1,88 @@
+.navBar {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+}
+
+.navBarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  padding-top: 10px;
+  width: 90px;
+  transform: rotate(-8deg);
+}
+
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  /* gap: 10px; */
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #00000000;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 99;
+
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  backdrop-filter: blur(4px);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #61616124;
+  border-radius: 4px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,131 @@
+.services {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-image: radial-gradient(rgb(8, 8, 52),black);
+    background-image: url('../assets//serviceCardsBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100PX 0;
+}
+
+.servicesCardsHeading {
+text-align: center;
+}
+
+.servicesCardsHeading h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.servicesCardsHeading h3 {
+    text-transform: capitalize;
+    font-size: 27px;
+    font-weight: 700;
+
+}
+.serviceCardText h3{
+  font-weight: 700;
+}
+
+.servicesCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.servicesCards .serviceCard {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(28, 28, 28, 0.731);
+    border: 1px solid rgba(212, 212, 212, 0.19);
+    border-radius: 5px;
+    padding: 0 20px 20px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.dots h2 {
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+
+.servicesCards .serviceCard img {
+    width: 100%;
+    transition: all ease 0.5s;
+    border: 1px solid rgba(212, 212, 212, 0.19);
+    border-radius: 5px;
+    filter: hue-rotate(190deg) brightness(150%) ;
+}
+
+.serviceCard img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.392);
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  /**
+   * The "shine" element
+   */
+   .icon {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    font-family: sans-serif;
+  }
+  
+  .icon:after {
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 0) 0%,
+      rgba(117, 101, 101, 0) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  
+  /* Hover state - trigger effect */
+  
+  .icon:hover:after {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.7s;
+    transition-timing-function: ease;
+  }
+  
+  /* Active state */
+  
+  .icon:active:after {
+    opacity: 0;
+  }

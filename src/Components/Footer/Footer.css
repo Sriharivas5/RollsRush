@@ -1,0 +1,70 @@
+.footer {
+    background-image:radial-gradient(rgb(49, 49, 49),black);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 0;
+
+}
+.footer h2{
+    font-weight: 900;
+}
+.footer p{
+    font-weight: 700;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footerMiddle {
+    display: flex;
+    justify-content: space-around;
+}
+.copyRights{
+    display: flex;
+    justify-content: center;
+}
+.help {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.followIcon {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+hr {
+    width: 90%;
+    align-self: center;
+}
+
+.footerMiddle h3,
+.follow h3 {
+    margin: 0 0 15px 0;
+
+}
+
+
+img {
+    width: 22px;
+}

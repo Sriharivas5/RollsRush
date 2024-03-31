@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    color: rgb(255, 255, 255);
+    cursor: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: rgb(255, 242, 181);
+    /* font-family: 'Open Sans'; */
+    background-image: linear-gradient(rgb(255, 255, 255) 45%,
+            rgb(170, 170, 170) 60%,
+            rgb(192, 192, 192) 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* cursor: default; */
+}
+/* button{
+    cursor: pointer;
+} */

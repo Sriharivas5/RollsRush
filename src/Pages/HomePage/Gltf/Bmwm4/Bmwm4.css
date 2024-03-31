@@ -1,0 +1,60 @@
+.bmwm4 , .bmwf82 , .mclaren , .mercedes ,.hongqi{
+  width: 80vw;
+  height: 90vh;
+
+}
+
+/* #bugati{
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgb(102, 102, 102), black);
+  background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg");
+
+  background-image: url("https://cdn.pixabay.com/photo/2022/02/20/09/15/hexagon-background-7024022_1280.jpg");
+
+  background-image: url("https://cdn.pixabay.com/photo/2021/08/07/20/27/wallpaper-6529276_1280.jpg");
+
+  background-image: url("https://cdn.pixabay.com/photo/2023/05/27/19/56/background-8022258_1280.jpg");
+  background-color: rgba(250, 235, 215, 0);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+
+.gltfContent {
+  position: absolute;
+  top: 23%;
+  left: 2%;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.gltfContent h2{
+  font-size: 40px;
+}
+.gltfContent h3{
+  font-size: 27px;
+}
+.gltfContent h4{
+  font-size: 20px;
+}
+canvas{
+  height: 90vh;
+}
+#home{
+  background-image: radial-gradient(rgb(64, 61, 61),black);
+  background-image: url("https://cdn.pixabay.com/photo/2023/05/27/19/56/background-8022258_1280.jpg");
+  
+}
+#o {
+background-image: radial-gradient(rgb(64, 61, 61),black);
+}
+#freeConcept11 ,#sports ,#hongqi ,#mercedes ,#bmwf82 ,#bmwm4 ,#car2 ,#bugati{
+  background-image: radial-gradient(rgb(92, 94, 96),black);
+
+}

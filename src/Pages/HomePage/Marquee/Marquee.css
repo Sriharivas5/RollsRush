@@ -1,0 +1,26 @@
+.marqueeHeading {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: radial-gradient(rgb(19, 12, 36), black);
+    /* background-image: url('../assets/marqueeBackground.jpg'); */
+    filter: brightness(60%);
+    background-size: cover;
+}
+
+.marqueeImage {
+    width: 200px;
+    margin: 30px 100px;
+}
+
+.marqueeImage img {
+    width: 100%;
+}
+
+#marqueethree {
+    width: 180px;
+}
+
+#marqueeLast {
+    width: 240px;
+}

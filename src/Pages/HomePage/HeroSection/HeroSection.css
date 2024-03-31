@@ -1,0 +1,11 @@
+.heroSection {
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+}
+
+

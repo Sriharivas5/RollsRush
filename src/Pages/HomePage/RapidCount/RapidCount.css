@@ -1,0 +1,22 @@
+.rapidCount {
+    max-width: 100%;
+    height: 30vh;
+    background-color: #000000;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+}
+
+.rapidCount .img {
+    font-size: 60px;
+}
+
+
+.wheels,
+.remodeling,
+.colourCorrection {
+    display: flex;
+    gap: 10px;
+}

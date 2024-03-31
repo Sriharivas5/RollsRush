@@ -1,0 +1,60 @@
+.car3,
+.car2,
+.mercedes,
+.mclaren,
+.bmwm4,
+.bmwf82 , .hongqi {
+    position: relative;
+}
+
+
+.gltfHomeContent {
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#gltfContentOne {
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.gltfHomeHeading {
+    background-color: rgba(131, 131, 131, 0.227);
+    padding: 10px 25px;
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+}
+
+.gltfHomeContent h2 {
+    font-size: 35px;
+    font-weight: 800;
+
+}
+
+h2 {
+    /* color: #c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+        url(http://www.theblogmarket.co/wp-content/uploads/2015/11/GOLD-11.jpg) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+h3 {
+    font-weight: 100;
+}

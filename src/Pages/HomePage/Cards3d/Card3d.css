@@ -1,0 +1,124 @@
+.card3dMain {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: space-between;
+    background-image: radial-gradient(rgb(0, 0, 45), black);
+    background-image: url('../assets/card3dBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+}
+
+.cards3dHeading {
+    display: flex;
+    justify-content: center;
+}
+
+.cards3dHeading h2 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+#cards3d {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.flip-card {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    margin: 30px 0;
+}
+
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 1s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: rgba(0, 0, 0, 0.085);
+    border: 2px solid rgba(37, 0, 159, 0.22);
+    backdrop-filter: blur(4px);
+    border-image: linear-gradient(to top, rgb(204, 135, 50), rgb(98, 58, 28), rgb(204, 135, 50)) 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.flip-card-back {
+    background-color: rgba(0, 0, 0, 0.085);
+    border: 2px solid rgba(37, 0, 159, 0.22);
+    transform: rotateY(180deg);
+    backdrop-filter: blur(4px);
+    border-image: linear-gradient(to top, rgb(204, 135, 50), rgb(98, 58, 28), rgb(204, 135, 50)) 1;
+}
+
+.flip-card-back button {
+    background-color: rgba(240, 248, 255, 0);
+    border-image: linear-gradient(to top, rgb(204, 135, 50), rgb(98, 58, 28), rgb(204, 135, 50)) 1;
+    color: aliceblue;
+    border-radius: 10em;
+}
+
+
+.flip-card-front img {
+    width: 100%;
+}
+
+
+.flip-card-front .content3d h4,
+h2,
+h5,
+p {
+    font-weight: 500;
+    color: rgba(73, 73, 73, 0.885);
+}
+
+.flip-card-front .image3d {
+    height: 40%;
+}
+
+.flip-card-front .content3d {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+/* h2{
+    background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+    background-size: 150%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: 200;
+    font-family: "Yantramanav";
+    filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+    animation: MoveBackgroundPosition 6s ease-in-out infinite;
+} */

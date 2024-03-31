@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  max-width:  100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: black;
+}
+
+.slide-panel {
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  transition: all ease 2s;
+}
+
+.slide-panel img {
+  width: 100%;
+  transition: all ease 2s;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 99;
+}
+
+#carouselHeading {
+  margin: 20px 0;
+  padding: 7px 20px;
+  font-size: 37px;
+  border: 2px solid rgba(81, 81, 81, 0.39);
+}
