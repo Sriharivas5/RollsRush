@@ -67,11 +67,11 @@ function CustomCursor() {
                 ref={cursorInnerRef}
                 style={{
                     position: 'fixed',
-                    left: '8px',
-                    top: '8px',
+                    left: '12px',
+                    top: '12px',
                     width: '6px',
                     height: '6px',
-                    backgroundColor: isHovering ? 'blue' : 'aqua',
+                    backgroundColor: isHovering ? 'blue' : 'white',
                     borderRadius: '50%',
                     transform: 'translate(-50%, -50%)',
                     pointerEvents: 'none',
