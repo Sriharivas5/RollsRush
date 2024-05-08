@@ -23,6 +23,8 @@ Welcome to RollsRush, a modern and visually compelling car-themed website built 
 - **React**: Frontend library for building the user interface.
 - **GLTF Models**: Used for rendering interactive 3D models.
 - **React-typewriter-effect**: For typewriter effects.
-- **React-intersection-observer**: To trigger animations when elements come into view.
+- **React-scroll-trigger**: To trigger animations when elements come into view.
 - **Styled Components**: For writing component-specific CSS.
-### You can visit the website : https://sriharivas5.github.io/RollsRush/
+### You can visit the website : https://rollsrush.netlify.app/
+
+
